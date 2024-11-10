@@ -13,7 +13,7 @@ export default async function Page() {
     <section>
       <section className="sm:px-28 sm:pt-8">
         <Image
-          alt={'Hamster1963'}
+          alt={'Joker'}
           src={avatar}
           height={64}
           width={64}
@@ -23,64 +23,74 @@ export default async function Page() {
           priority
         />
         <h1 className="mb-1 text-xl font-medium tracking-tighter">
-          Hamster1963
+          Joker
         </h1>
         <p className="prose prose-neutral text-sm dark:prose-invert">
-          Developer, guitarist, and creator.
+          程序员, 饲养员。
         </p>
         <p className={'mb-6 pt-10 text-lg font-medium tracking-tight'}>
-          👋 Hi, I'm Hamster1963.
+            😊 嗨，我是Joker，一个喜欢折腾的人。
           <br />
-          Love to write code and write articles.
+            🏅 热爱狗狗、游戏、编程、网络。
           <br />
-          I will share some tech related things and my ideas here.
+            🎗️ 台湾永远是中国的。
           <br />
+            💞 单推Egg。
+          <br/>
         </p>
         <NowPlayingInit />
-        <div className={'mt-6 flex items-center'}>
-          <Link href="https://github.com/hamster1963" target="_blank">
-            <button
-              className={
-                'mr-4 flex items-center justify-center rounded-xl border-[0.5px] border-neutral-200 p-2 text-xs font-medium shadow-[0_2px_2px_rgba(0,0,0,0.04)] transition-all duration-300 hover:bg-stone-100 hover:shadow-none dark:border-neutral-700 dark:bg-neutral-700/20 dark:hover:bg-neutral-900/20'
-              }
-            >
-              <GitHubIcon className="mr-1 h-4" />
-              <p>GitHub</p>
-            </button>
-          </Link>
-          <span className="mr-2 h-2 w-2 rounded-full bg-blue-500"></span>
-          <Link
-            href={'https://home.buycoffee.top'}
-            target="_blank"
-            className="text-xs font-medium"
-          >
-            Monitor
-          </Link>
-          <p className="mx-1 text-xs font-medium">/</p>
-          <Link
-            href={'https://changelog.buycoffee.top'}
-            target="_blank"
-            className="text-xs font-medium"
-          >
-            Changelog
-          </Link>
-        </div>
+          <div className={'mt-6 flex items-center'}>
+              <Link href="https://github.com/TrickeryJoker" target="_blank">
+                  <button
+                      className={
+                          'mr-4 flex items-center justify-center rounded-xl border-[0.5px] border-neutral-200 p-2 text-xs font-medium shadow-[0_2px_2px_rgba(0,0,0,0.04)] transition-all duration-300 hover:bg-stone-100 hover:shadow-none dark:border-neutral-700 dark:bg-neutral-700/20 dark:hover:bg-neutral-900/20'
+                      }
+                  >
+                      <GitHubIcon className="mr-1 h-4"/>
+                      <p>GitHub</p>
+                  </button>
+              </Link>
+              <span className="mr-2 h-2 w-2 rounded-full bg-blue-500"></span>
+              <Link
+                  href={'https://vps.jovegg.com/'}
+                  target="_blank"
+                  className="text-xs font-medium"
+              >
+                  VPS
+              </Link>
+              <p className="mx-1 text-xs font-medium">/</p>
+              <Link
+                  href={'https://www.nodeseek.com/space/2763#/general'}
+                  target="_blank"
+                  className="text-xs font-medium"
+              >
+                  NodeSeek
+              </Link>
+              <p className="mx-1 text-xs font-medium">/</p>
+              <Link
+                  href={'https://www.nodeseek.com/space/2763#/general'}
+                  target="_blank"
+                  className="text-xs font-medium"
+              >
+                  祖国必将统一
+              </Link>
+          </div>
       </section>
-      <Photos />
+        <Photos/>
     </section>
   )
 }
 
 
 function Photos() {
-  const photo_1 = desktop
-  const photo_2 = shoe
-  const photo_3 = cloth
-  const photo_4 = home
-  return (
-    <section
-      className={
-        '-mx-6 overflow-scroll sm:mx-0 sm:flex sm:flex-row sm:justify-center md:overflow-visible'
+    const photo_1 = desktop
+    const photo_2 = shoe
+    const photo_3 = cloth
+    const photo_4 = home
+    return (
+        <section
+            className={
+                '-mx-6 overflow-scroll sm:mx-0 sm:flex sm:flex-row sm:justify-center md:overflow-visible'
       }
     >
       <section className={'relative h-[460px] w-[800px]'}>
