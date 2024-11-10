@@ -60,7 +60,7 @@ export default async function Page() {
               </Link>
               <p className="mx-1 text-xs font-medium">/</p>
               <Link
-                  href={'https://www.nodeseek.com/space/2763#/general'}
+                  href={'https://www.nodeseek.com'}
                   target="_blank"
                   className="text-xs font-medium"
               >
@@ -68,7 +68,7 @@ export default async function Page() {
               </Link>
               <p className="mx-1 text-xs font-medium">/</p>
               <Link
-                  href={'https://www.nodeseek.com/space/2763#/general'}
+                  href={'https://www.gov.cn/zhengce/2022-08/10/content_5704839.htm'}
                   target="_blank"
                   className="text-xs font-medium"
               >
